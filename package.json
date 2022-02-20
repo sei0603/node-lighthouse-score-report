@@ -1,0 +1,19 @@
+{
+  "name": "node-lighthouse-score-report",
+  "version": "1.0.0",
+  "description": "",
+  "main": "report.js",
+  "scripts": {
+    "report": "ts-node src/report.ts",
+    "score": "ts-node src/score.ts"
+  },
+  "author": "sei0603",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "lighthouse": "^9.4.0",
+    "ts-node": "^10.5.0"
+  }
+}
